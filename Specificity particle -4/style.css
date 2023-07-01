@@ -1,0 +1,9 @@
+.one-Container{
+    background-color: lightgray;
+}
+.one-Container .Blue-Text{
+    color: blue;
+}
+.one-Container #two-Parafs{
+    font-size: 20px;
+}
