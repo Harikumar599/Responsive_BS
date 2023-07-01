@@ -1,0 +1,11 @@
+
+
+
+.one{
+    display:flex;
+    flex-wrap: wrap;
+}
+.one{
+    flex-grow: 1;
+    flex-basis: 150px;
+}
