@@ -1,0 +1,30 @@
+.main {
+    background: solid 1px black;
+    height: 500px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background: rgb(19, 187, 209);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
